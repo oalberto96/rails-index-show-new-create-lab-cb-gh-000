@@ -1,2 +1,3 @@
 <% @coupons.each do |coupon| %>
-  <% end %>
+  <%= coupon.store %>
+<% end %>
